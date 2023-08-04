@@ -1,0 +1,118 @@
+RPA Robotic Process Automation : UiPath Developer.
+
+Movies System: 
+
+1-Select Movie website : 
+                                           1- IMDB Website.
+                                           2-Rotten Tomato Website.
+
+2-If Select IMDB Website :
+                                         1- Open IMDB Website.
+                                         2-Take Movie Name From User .
+                                         3-Check Data is Empty : 
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                         4-Search Movie on IMDB.
+                                         5-Extract Movie Infomation From IMDB.
+                                        6-Ask User If Need Enter Another Movie :
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                        7-Ask User If Need Try  program Again :
+                                                      -If Yes , Repeat the program from Step 1.
+                                                      -IF no  , Close the program.
+
+3-If Select Rotten Tomato Website :
+                                         1- Open Rotten Tomato Website.
+                                         2-Take Movie Name From User .
+                                         3-Check Data is Empty : 
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                         4-Search Movie on Rotten Tomato.
+                                         5-Extract Movie Infomation From Rotten Tomato.
+                                        6-Ask User If Need Enter Another Movie :
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                        7-Ask User If Need Try  program Again :
+                                                      -If Yes , Repeat the program from Step 1.
+                                                      -IF no  , Close the program.
+
+
+
+
+RPA Robotic Process Automation : UiPath Developer.
+
+Movies System With Error Handling (Part 3):
+
+1-Select Movie website : 
+                      1- IMDB Website.
+                      2-Rotten Tomato Website.
+
+2-If Select IMDB Website :
+                     1- Open IMDB Website.
+                      - If IMDB Logo found :
+                           -If NO , Repeat the program from Step (2.1).
+                           -IF Yes , 
+                     2-Take Movie Name From User .
+                     3-Check Data is Empty : 
+                           -If Yes , Repeat the program from Step (2.2).
+                           -IF no , 
+                     4-Search Movie on IMDB.
+                      - If IMDB Logo found :
+                           -If NO , 1- Print Message to User "Search IMDB Logo Not Found".
+                                   2- Close the program.
+                           -IF Yes , 
+                     5-Extract Movie Infomation From IMDB.
+                      - If IMDB Logo found :
+                           -If NO , 1- Print Message to User "Search IMDB Logo Not Found".
+                                   2- Close the program.
+                           -IF Yes , 
+                    6-Ask User If Need Enter Another Movie :
+                           -If Yes , Repeat the program from Step (2.2).
+                           -IF no , 
+                    7-Ask User If Need Try program Again :
+                           -If Yes , Repeat the program from Step 1.
+                           -IF no , Close program.
+
+3-If Select Rotten Tomato Website :
+                     1- Open Rotten Tomato Website.
+                      - If Rotten Tomato Logo found :
+                           -If NO , Repeat the program from Step (3.1).
+                           -IF Yes , 
+                     2-Take Movie Name From User .
+                     3-Check Data is Empty : 
+                           -If Yes , Repeat the program from Step (3.2).
+                           -IF no , 
+                     4-Search Movie on Rotten Tomato.
+                      - If Rotten Tomato Logo found :
+                           -If NO , 1- Print Message to User "Search Rotten Tomato Logo Not Found".
+                                   2- Close the program.
+                           -IF Yes , 
+                     5-Extract Movie Infomation From Rotten Tomato.
+                      - If Rotten Tomato Logo found :
+                           -If NO , 1- Print Message to User "Search Rotten Tomato Logo Not Found".
+                                   2- Close the program.
+                           -IF Yes , 
+                    6-Ask User If Need Enter Another Movie :
+                           -If Yes , Repeat the program from Step (2.2).
+                           -IF no , 
+                    7-Ask User If Need Try program Again :
+                           -If Yes , Repeat program.
+                           -IF no , Close program.
+#RPA #Automation #UIPATH
+
+
+Movie Recommendation System:
+1-Open IMDB Website.
+2-click menu.
+3-select Top Box Office. 
+4-Scrape " Read " Top box Office Movies.
+5-select your favourite movie.
+6-search movie on IMDB.
+7-Extract Movie Infomation.
+8-Open Rotten Tomato.
+9-Search Movie on Rotten Tomato.
+10-Extract Tomato meter & Audince Score.
+11-Output Movie Data Based Movie Information.
+12-would like to select another movie : 
+   -If Yes , Repeat the program from Step 5.
+   -IF no  , Close the program.

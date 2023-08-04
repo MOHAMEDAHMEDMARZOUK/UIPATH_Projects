@@ -1,0 +1,38 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var1&Sequence_1",
+        "var10&Sequence_1",
+        "var2&Sequence_1",
+        "var3&Sequence_1",
+        "var4&Sequence_1",
+        "var5&Sequence_1",
+        "var6&Sequence_1",
+        "var7&Sequence_1",
+        "var8&Sequence_1",
+        "var9&Sequence_1",
+        "x1&Sequence_1",
+        "x2&Sequence_1",
+        "x3&Sequence_1",
+        "x4&Sequence_1",
+        "x5&Sequence_1",
+        "x6&Sequence_1",
+        "variable1&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

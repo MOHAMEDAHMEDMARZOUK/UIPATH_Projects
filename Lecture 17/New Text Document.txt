@@ -1,0 +1,42 @@
+RPA Robotic Process Automation : UiPath Developer.
+
+Run Automation Processes on Orchestrator System :
+
+1-Select The Task You Want to Open It : 
+                                           1- Scraping  Data From PDF To Word .
+                                           2-AcmeLibrary.
+
+2-If Select Scraping  Data From PDF To Word  :
+
+                                        1-Enter the "Folder Path" To Take The Filers Path and Save It in List(of Pathes ).
+
+                                        2-Usinf For loop and Read PDF With OCR . 
+                                     
+                                        3- Append PDF Data  to List(of Data ).
+                                 
+                                        4- Create Word Application Scope.
+
+                                       5- Add Picture that Was Extract From PDF To Word.
+
+                                       6-Append Text that Was Extract From PDF To Word.
+
+3-If Select Acme Library :
+                                         1- Enter  User Email.
+
+                                         2-Enter  User Password .
+
+                                         3-Acme Library  :  
+                                                   1- Acme Open Website.         
+                                                  2- Acme Login.
+                                                  3- Acme Click Work Items.
+                                                  4- Acme Data Scraping .
+                                                  5- Acme Logout.
+                                                  6- ACME Close.
+                                                  7- ACME Close.
+                                                  8- Enter The Text Path.
+                                                  9- Filter And Write Excel File. 
+                                                      
+
+4-would like to Repeat The Process : 
+   -If Yes , Repeat the program from Step 1.
+   -IF no  , Close the program.

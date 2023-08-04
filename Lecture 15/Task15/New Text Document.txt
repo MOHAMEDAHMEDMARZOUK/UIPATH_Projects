@@ -1,0 +1,14 @@
+Data Entry ( From PDF To Word ) System:
+
+1-Enter the "Folder Path" To Take The Filers Path and Save It in List(of Pathes ).
+
+2-Usinf For loop and Read PDF With OCR . 
+                                     
+3- Append PDF Data  to List(of Data ).
+                                 
+4- Create Word Application Scope.
+
+5- Add Picture that Was Extract From PDF To Word.
+
+6-Append Text that Was Extract From PDF To Word.
+        

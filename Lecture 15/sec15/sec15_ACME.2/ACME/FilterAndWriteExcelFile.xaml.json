@@ -1,0 +1,31 @@
+{
+  "DisplayName": "FilterAndWriteExcelFile",
+  "Tooltip": "Desc:  Filter And Write Data in_TextPath .\n\nPreCondition: check if Data File Not Empty.\n\nPostCondition: check if File Path Exists.\n\nIn Args:\nin_TextPath:String\n\nout Args:\nout_StrGetData : String",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_TextPath",
+      "DisplayName": "in_TextPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_dtExtractDataTable",
+      "DisplayName": "in_dtExtractDataTable",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "DataSourceItems": null
+    }
+  ]
+}

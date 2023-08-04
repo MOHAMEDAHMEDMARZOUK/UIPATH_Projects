@@ -1,0 +1,37 @@
+RPA Robotic Process Automation : UiPath Developer.
+
+Movies System: 
+
+1-Select Movie website : 
+                                           1- IMDB Website.
+                                           2-Rotten Tomato Website.
+
+2-If Select IMDB Website :
+                                         1- Open IMDB Website.
+                                         2-Take Movie Name From User .
+                                         3-Check Data is Empty : 
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                         4-Search Movie on IMDB.
+                                         5-Extract Movie Infomation From IMDB.
+                                        6-Ask User If Need Enter Another Movie :
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                        7-Ask User If Need Try  program Again :
+                                                      -If Yes , Repeat the program from Step 1.
+                                                      -IF no  , Close the program.
+
+3-If Select Rotten Tomato Website :
+                                         1- Open Rotten Tomato Website.
+                                         2-Take Movie Name From User .
+                                         3-Check Data is Empty : 
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                         4-Search Movie on Rotten Tomato.
+                                         5-Extract Movie Infomation From Rotten Tomato.
+                                        6-Ask User If Need Enter Another Movie :
+                                                      -If Yes , Repeat the program from Step (2.2).
+                                                      -IF no  , 
+                                        7-Ask User If Need Try  program Again :
+                                                      -If Yes , Repeat the program from Step 1.
+                                                      -IF no  , Close the program.

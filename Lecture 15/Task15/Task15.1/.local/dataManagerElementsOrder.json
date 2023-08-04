@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPdfData&Sequence_1",
+        "answer&Flowchart_1",
+        "path&Flowchart_1",
+        "Bro2&Flowchart_1",
+        "ans&Flowchart_1",
+        "INUserEmail&Flowchart_1",
+        "INPassword&Flowchart_1",
+        "browser&Sequence_7",
+        "dt_data&Sequence_7",
+        "browserr&Sequence_4",
+        "dt_data&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+if(condition,true,falsee)‏
+DADY ZAD‏10:12 م
+To sign out of Udemy remotely using UiPath, you will need to create a UiPath automation that performs the following steps:
+
+Navigate to the Udemy website and click on the "Log In" button in the top right corner.
+
+Enter the email address and password associated with your Udemy account and click the "Log In" button.
+
+Click on your profile picture in the top right corner and select "Settings".
+
+In the "Account" tab, scroll down to the "Security" section and click on the "Sign out everywhere" button‏
+Mohamed Mesbah‏10:15 م
+https://www.udemy.com/logout/‏
+Aya Abdulhamid (Ayo2oya)‏10:15 م
+https://www.udemy.com/logout/‏
+DADY ZAD‏10:16 م
+You can use UiPath's built-in "Get Attribute" activity to get the selector for the "Sign out everywhere" button. Simply hover over the button in the web browser and use the "Get Attribute" activity to get the selector for the button.‏
+‪cfq-atfd-ria‬‏
